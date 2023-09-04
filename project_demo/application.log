@@ -1,0 +1,39 @@
+2023-09-04T21:34:07.788+05:30  INFO 7224 --- [restartedMain] c.project_demo.ProjectDemoApplication    : Starting ProjectDemoApplication using Java 17.0.7 with PID 7224 (D:\Spring_tools_software\project_demo\target\classes started by Vivin in D:\Spring_tools_software\project_demo)
+2023-09-04T21:34:07.792+05:30  INFO 7224 --- [restartedMain] c.project_demo.ProjectDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-09-04T21:34:07.836+05:30  INFO 7224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-04T21:34:07.836+05:30  INFO 7224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-04T21:34:08.408+05:30  INFO 7224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-04T21:34:08.461+05:30  INFO 7224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2023-09-04T21:34:09.031+05:30  INFO 7224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-09-04T21:34:09.041+05:30  INFO 7224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-04T21:34:09.042+05:30  INFO 7224 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-04T21:34:09.097+05:30  INFO 7224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-04T21:34:09.097+05:30  INFO 7224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1261 ms
+2023-09-04T21:34:09.244+05:30  INFO 7224 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-04T21:34:09.294+05:30  INFO 7224 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-09-04T21:34:09.295+05:30  INFO 7224 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-04T21:34:09.417+05:30  INFO 7224 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-04T21:34:09.546+05:30  INFO 7224 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-04T21:34:09.564+05:30  INFO 7224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-04T21:34:09.819+05:30  INFO 7224 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63c32c17
+2023-09-04T21:34:09.820+05:30  INFO 7224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-04T21:34:09.866+05:30  WARN 7224 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-04T21:34:10.053+05:30  INFO 7224 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-04T21:34:10.566+05:30  INFO 7224 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-04T21:34:10.659+05:30  INFO 7224 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04T21:34:10.974+05:30  INFO 7224 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-04T21:34:11.350+05:30  WARN 7224 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-04T21:34:11.830+05:30  INFO 7224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-04T21:34:11.865+05:30  INFO 7224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2023-09-04T21:34:11.873+05:30  INFO 7224 --- [restartedMain] c.project_demo.ProjectDemoApplication    : Started ProjectDemoApplication in 4.412 seconds (process running for 5.046)
+2023-09-04T21:36:32.800+05:30  INFO 7224 --- [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-04T21:36:32.800+05:30  INFO 7224 --- [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-04T21:36:32.801+05:30  INFO 7224 --- [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-04T22:23:26.011+05:30  WARN 7224 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m15s426ms873µs200ns).
+2023-09-04T22:49:29.596+05:30  WARN 7224 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m3s477ms92µs700ns).
+2023-09-04T22:51:01.974+05:30  INFO 7224 --- [RMI TCP Connection(60)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-09-04T22:51:01.989+05:30  INFO 7224 --- [RMI TCP Connection(60)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-04T22:51:01.991+05:30  INFO 7224 --- [RMI TCP Connection(60)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-04T22:51:01.998+05:30  INFO 7224 --- [RMI TCP Connection(60)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04T22:51:02.001+05:30  INFO 7224 --- [RMI TCP Connection(60)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-04T22:51:02.006+05:30  INFO 7224 --- [RMI TCP Connection(60)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
